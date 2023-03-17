@@ -1,6 +1,11 @@
 import psutil
 import platform
 from datetime import datetime
+import os
+from os import system
+os.system('pip3 install psutil')
+os.system('pip3 install gputil')
+os.system('pip3 install tabulate')
 
 def get_size(bytes, suffix="B"):
     """
